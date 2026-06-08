@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classe e pseudo-elemento</title>
+
+    <style>
+
+        /*pseudo-classe*/
+        div:hover {
+            background-color: purple;
+        }
+
+        a{
+           text-decoration: none;
+           color: green;
+
+        }
+        a:hover {
+            background-color: green;
+            color: white;
+            padding: 0.5em;
+        }
+        /*links não visitados ainda*/
+        a:link {
+            color: grey; 
+        }
+        /*links já visitados*/
+        a:visited {
+            color: red;
+        }
+        a:active {
+            color: blue;
+        }
+
+        input:checked {
+            margin-left: 20px;
+        }
+
+        input:focus{
+            background-color: purple;
+        }
+
+        input:required {
+            background-color: yellow;
+        }
+
+        /*pseudo-elemento*/
+        p::first-line{
+            color: red
+        }
+
+        p::first-letter{
+            font-size: 2em;
+            color: blue;
+        }
+        p::selection {
+            background-color: green;
+            color: white;
+        }
+
+        h2::before {
+            content: "Título: ";
+            color: red;
+        }
+
+        h2::after {
+            content: " - Fim do título";
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div>
+        Conteúdo da DIV
+    </div>
+    
+    <h2>Conteúdo do H2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Molestias, voluptate. Voluptas, doloremque. Molestias
+    </p>
+    <a href="">Google</a>
+    <a href="">Facebook</a>
+    <a href="">Instagram</a>
+
+    <h2> Formulário</h2>
+    <input type="checkbox"> aceito <br>
+    <input type="radio" name="opcao"> Sim <br>
+    <input type="radio" name="opcao"> Não <br>
+    <input tpe="text" required placeholder="Digite seu nome"> <br>
+
+</body>
+</html>

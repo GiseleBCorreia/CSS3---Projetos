@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        .caixa{
+            width: 700px;
+            height: 300px;
+            border: 3px dotted red;
+            /*
+            background-color: lightgreen;
+            background-image: url('img/fundo-css-escuro.png');
+            background-repeat: no-repeat;*/
+            /*background: repeat-y; (vertical e x é na horizontal)*/
+            /*background-attachment: scroll;*/
+            /*scrol:imagem rola com  atela, e fixed= imagem fica fixa*/
+            /*background-position: center top;*/
+            /*background-position-x: right;
+            background-position-y: bottom;
+            */
+            /*todas as propriedades resumidas: ordem: cor, imagem, repeat, attachment, position */
+            /*background: lightgreen
+                        url('img/fundo-css-escuro.png')
+                        no-repeat
+                        scroll
+                        left top;*/
+            background: 
+                url('img/fundo-css-escuro.png') no-repeat right bottom,
+                url('img/fundo-css-claro.png') no-repeat left top;
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="caixa">
+        <h1>Título de texto</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero reiciendis error aliquid unde! Aliquid, harum vero quas tenetur deserunt excepturi modi ut expedita maxime quam perferendis et eum laborum magni.</p>
+    
+    
+    </div>
+
+
+
+
+</body>
+</html>

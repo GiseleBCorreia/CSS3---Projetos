@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herança e especificidades</title>
+    <style>
+
+        /*herança
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            border: 1px solid red;
+            padding: 3em;
+            margin: 2em;
+        }
+        h1{
+            color: violet;
+            border: inherit;
+            font-size: inherit;
+        }
+        p{
+         
+        }*/
+
+        /*Especificidade
+        Ordem de aplicação da formatações:
+        1. Regra com !important
+        2. Seletor mais específico
+        3. última regra processada
+        Seletores mais específicos: 
+        1) Estilo em linha (inline style)
+        2) IDs
+        3) Classes, atributos e pseudo classes
+        4) Elementos e pseudo-elementos
+
+        p{
+            color: blueviolet !important;
+        }
+        p{
+            color: red;
+        }
+        p[class]{
+            border: 1px solid red;
+        }*/
+      
+
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p class="destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+    <p class="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+</body>
+</html>

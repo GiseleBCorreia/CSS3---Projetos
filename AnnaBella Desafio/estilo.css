@@ -1,0 +1,41 @@
+   body{
+            background-image: url("img/fundo.png");
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    a{
+            font-family: 'Arial', sans-serif;
+            text-decoration: none;
+            color: #4b566a;
+            font-weight: bold;
+
+    }
+    .menu{
+            background: #c5c5b2;
+            width: 100%;
+            padding: 20px;
+        }
+    .principal{
+            background-color: #c5c5b2;
+            width: 900px;
+
+        }
+    .conteudo{
+            background:rgb(230,228,213);
+            width: 100%;
+            padding: 10px;
+            
+        }
+    h1{
+            font-family: 'Arial', sans-serif;
+            color:#828271;
+            font-size: 1.2em;
+            padding-top: 15px;
+            padding-left: 5px;
+        }
+    p{
+            padding-left: 5px;
+            
+        }
+    .rodape{
+            text-align: center;
+    }

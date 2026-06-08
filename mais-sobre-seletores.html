@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre seletores (prática)</title>
+    <style> 
+
+        /* seletor universal:
+        *{
+            border: 1px solid red
+        } */
+
+        /*seletor de texto
+
+        h1, p {
+            border: 1px solid red
+        }*/
+
+        /*seletor de classe
+        .destaque {
+            background: red;
+        }
+        .título {
+            color: white;
+            } */
+
+        /* seletor de id 
+        #promocao{
+            background-color: purple;
+        }*/
+
+        /*seletor de filho (apenas filho direto)
+        div>h1{
+            background-color: orange;
+
+        }
+        li>a{
+            color: brown;
+            text-decoration: none ;
+        } */
+
+        /*seletor descendente
+        div h1{
+            background-color: orange;
+        }
+         li a{
+            color: brown;
+            text-decoration: none ;
+        }*/
+
+        /*Seletor de irmão adjacente - seleciona o irmão próximo do outro
+
+        h1+p{
+            color: brown;
+            border: 1px solid brown;
+        }*/
+
+        /*seletor de irmão geral
+         h1~p{
+            color: brown;
+            border: 1px solid brown;
+        }*/
+        h1{
+            color: green;
+        }
+        h1+p{
+            border-top: 3px solid grey ;
+            padding-top: 3px;
+            
+        }
+
+        p>a{
+            background-color: purple;
+            color: white
+        }
+
+        .destaque{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título da página</h1>  
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aspernatur dolore quam assumenda veritatis unde in esse impedit illum officiis similique, placeat, perferendis fugit ducimus alias praesentium. Corrupti, deleniti rem!
+        <a href="">Leia mais</a>
+        <a href="">Gostei (10)</a>
+
+    </p>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quae recusandae laudantium ipsum, deserunt ut vel incidunt laborum illum dolorem distinctio, saepe ad officiis modi amet, minus molestiae temporibus ipsa!
+    </p>
+
+    <h2>Subtítulo da página</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, modi. Error, odit dolorum. Quam ipsam autem rerum magni asperiores dolores atque iusto provident molestiae. Quaerat dicta unde delectus cupiditate quisquam.
+    </p>
+
+    <p class="destaque">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At numquam quae ipsa eos sed beatae reiciendis minima non nisi atque placeat molestias blanditiis architecto, omnis ipsum repellendus impedit consectetur velit?
+    </p>
+    <!--
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, exercitationem aspernatur atque molestias consequuntur nemo laudantium, sed suscipit quo minus itaque cupiditate officia, soluta earum excepturi cum quas eveniet in.</p>
+
+    <h1> Seletor de irmão (adjacente e geral)</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, exercitationem aspernatur atque molestias consequuntur nemo laudantium, sed suscipit quo minus itaque cupiditate officia, soluta earum excepturi cum quas eveniet in.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, exercitationem aspernatur atque molestias consequuntur nemo laudantium, sed suscipit quo minus itaque cupiditate officia, soluta earum excepturi cum quas eveniet in.</p>
+
+
+    <div style="border: px solid black;"> 
+        <h1 class="titulo destaque"> Título da Página</h1>
+        <span>
+            <h1 class="titulo destaque"> Título da Página</h1>
+        </span>
+    </div>
+    <ul>
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">Sobre</a>
+        </li>
+    </ul>
+
+    <h2> Subtítulo da página</h2>
+
+    <p class="destaque título">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam cupiditate voluptatum rerum esse qui, architecto, delectus fugit harum ipsa pariatur animi molestias tempore dicta odit quidem inventore quia itaque reiciendis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, exercitationem aspernatur atque molestias consequuntur nemo laudantium, sed suscipit quo minus itaque cupiditate officia, soluta earum excepturi cum quas eveniet in.</p>
+
+    <h2>Subtítulo da Página</h2>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, cupiditate aliquam ab repudiandae rem quo id fugit unde exercitationem? Dolorem nemo ratione, magnam voluptatum saepe dolores accusantium itaque dolorum minima.</p>
+
+    <div id="promocao">
+
+        <h2>Promocao</h2>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, cupiditate aliquam ab repudiandae rem quo id fugit unde exercitationem? Dolorem nemo ratione, magnam voluptatum saepe dolores accusantium itaque dolorum minima.</p>
+
+    </div>
+    -->
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VW e VH</title>
+
+    <style>
+        body{
+            border: 3px solid purple
+        }
+        .pixel{
+            width: 200px;
+            
+            background: red;
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .porcentagem{
+            /*Em relação ao body*/
+            width: 50%;
+            background: red;
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .vw{
+            width: 50vw;
+            background: red;
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        #area{
+            border: 3px solid rgb(0, 0, 0);   
+            width: 500px
+        }
+
+
+    </style>
+
+</head>
+<body>
+    /*vw e vh são relativos a viewport, ou seja, a janela do navegador*/
+    <div class="pixel">Pixel</div>
+    <div class="porcentagem">Porcentagem (50%)</div>
+    <div class="vw">VW (50vw)</div>
+   
+
+    <hr>
+
+    <div id="area">
+        <div class="pixel">Pixel</div>
+        <div class="porcentagem">Porcentagem (50%)</div>
+        <div class="vw">VW (50vw)</div>
+    </div>
+
+
+</body>
+</html>

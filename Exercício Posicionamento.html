@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Posicionamento</title>
+    <style>
+
+        .container{
+            width: 900px;
+            background-color: white;
+            margin: 10px auto;   
+            padding: 8px;
+            height: 900px;
+            position: relative;
+        }
+
+        .menu{
+            background-color: rgba(2, 133, 242);
+            height: 50px;
+        }
+        .menu a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            line-height: 50px;
+            padding: 0 10px;
+        }
+        a:hover{
+            background-color: white;
+            color: rgba(2, 133, 242);
+            
+        }
+        .novo{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .chat{
+            position: fixed;
+            width: 150px;
+            padding: 0.5em;
+            background-color: violet;
+            bottom: 0;
+            left:0;
+        }
+
+    </style>
+</head>
+<body style="background-color:rgba(118, 195, 250)">
+
+    <div class="container">
+        <img class="novo" src="img/novo.png" width="100" alt="">
+        <div class="menu">
+            <!--logo-->
+            <img src="img/logo-magalu.png" alt="Logo Magalu" width="100" style="vertical-align: middle;">
+            <a href="">Home</a>
+            <a href="">Sobre</a>
+            <a href="">Produtos</a>
+            <a href="">Meus pedidos</a>
+            <a href="">Contato</a>
+        </div>
+
+        <div>
+            <h1>Título do site</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+
+            <h1>Título do site</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+
+            <h1>Título do site</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        </div>
+    </div>
+
+    <div class="chat">
+        <h3>Chat</h3>
+
+        <textarea
+            name="mensagem"
+            id="mensagem"
+            cols="15"
+            rows="5">
+        </textarea>
+
+        <button>Enviar chat</button>
+    </div>
+
+</body>
+</html>

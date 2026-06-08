@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+
+        body{ 
+            background-color: purple;
+        }
+
+        #container{
+            width: 700px;
+            background-color: white;
+            margin: 10px auto;   
+            padding: 8px;
+        }
+
+        .borda{
+            border: 1px solid red;
+        }
+
+        .estatica{/*fluxo normal*/
+            position: static;
+        }
+        .relativa{
+            position: relative;
+            top: 30px;
+            left:30px;
+        }
+        .absoluta{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 500px;
+            margin: 0;
+
+        }
+        .fixa{
+            position: fixed;
+            width: 200px;
+            height: 120px;
+            bottom:0;
+            left: 0;
+            z-index:10;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+
+        <div class="fixa" style="background-color: green;">
+            <h3>Chat</h3>
+            <button>Enviar mensagem</button>
+        </div>
+
+        <h1 class="borda">Posição absoluta</h1>
+        <p class="borda absoluta" style="background-color: lightpink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+
+        <hr>
+
+        <h1 class="borda">Posição relativa</h1>
+        <p class="borda relativa" style="background-color: lightblue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+       
+        <h1 class="borda estatica">Fluxo normal</h1>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+        <p class="borda estatica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit, dolores eaque pariatur unde voluptatibus, blanditiis possimus magni dicta repellat deleniti distinctio, corrupti fugiat modi dolorum ut! Recusandae, est placeat?</p>
+      
+    </div>
+
+
+
+
+</body>
+</html>
